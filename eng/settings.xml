@@ -4,7 +4,7 @@
     <mirrors>
         <mirror>
             <id>repo-maven-apache-org-mirror</id>
-            <url>https://repo-maven-apache-org.azurefd.net/maven2</url>
+            <url>https://mavenproxy.azurefd.net/</url>
             <mirrorOf>central</mirrorOf>
         </mirror>
         <mirror>
@@ -12,5 +12,6 @@
             <url>https://oss-sonatype-org.azurefd.net/content/repositories/snapshots/</url>
             <mirrorOf>ossrh</mirrorOf>
         </mirror>
+        
     </mirrors>
 </settings>
